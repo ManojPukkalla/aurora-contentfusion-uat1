@@ -1,0 +1,20 @@
+{
+    
+    "configurations": [
+ {
+    "type": "node",
+    "request": "launch",
+    "name": "Launch test",  
+    "program": "${workspaceFolder}/Heroku.js",
+    "env": { 
+        "JAWSDB_URL" :"mysql://r3vns7dli15hwmbw:xcget245z04yie04@kcpgm0ka8vudfq76.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/haezvn4jz0ounfou", 
+"MERGED_FILENAME" : "WO Combined PDF",
+"MERGED_FILETAG" : "Node CV Merged",
+"SFDC_APIVERSION" : "43.0",
+"SFDC_LOGIN" : "aurorait.service@aurora-vwt.com.veoliauat",
+"SFDC_PWD" : "Salesforce123#",
+"SFDC_URL" : "https://test.salesforce.com",
+    },
+ }
+    ]
+  }
